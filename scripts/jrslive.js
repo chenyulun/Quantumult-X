@@ -6,6 +6,6 @@ let body = $response.body;
 
 body = body.replace('disp_prompt();', '').replace(/class="item ok_kqt type1/g, ($0) => `style="display:none" ${$0}`);
 body = body.replace(/class="web_nav_menu"/, ($0) => `style="display:none" ${$0}`);
-body = body.replace(/class="sub_time_sepa"/, ($0) => `style="display:none" ${$0}`);
+body = body.replace(/class="sub_time_sepa"/g, ($0) => `style="display:none" ${$0}`);
 
 $done({ body });
