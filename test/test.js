@@ -1,4 +1,4 @@
-const body = `<iframe class="sub_player" name="myplayer" id="myplayer" scrolling="no" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="/play/sm.html?id=137&id2=" ></iframe>
+let body = `<iframe class="sub_player" name="myplayer" id="myplayer" scrolling="no" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="/play/sm.html?id=137&id2=" ></iframe>
 <div class="sub_line"></div>
 <div class="sub_playlist">
     <div class="sub_channel" data-action="radio,,css=play spin,selector=.item.ok.me" data-lid="3936541,1,3936541">
@@ -31,5 +31,5 @@ if (hasILove) {
   body = body
     .replace('item play ok me', 'item ok me')
     .replace(/item\sok\sme(?=[^>]+><em\s[^>]+><\/em><strong>(中文)?高清(直播)?)/, 'item play ok me');
-  body = body.replace(/(?<=src="\/)play\/sm\.html\?id=137&id2=(?="\s><\/iframe>)/, hasILove[1]);
+  body = body.replace(/(?<=src=")\/play\/[^"]+(?="[^>]+><\/iframe>)/, hasILove[1]);
 }
