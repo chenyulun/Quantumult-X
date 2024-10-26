@@ -1,6 +1,6 @@
 var body = $response.body;
 
-body = body.replace('disp_prompt();', '');
+body = body.replace('checkAndShowPopup();', '');
 body = body.replace(/class="web_share"/, ($0) => `style="display:none" ${$0}`);
 body = body.replace(/class="web_nav_menu"/, ($0) => `style="display:none" ${$0}`);
 body = body.replace(/class="loc_banner only-app"/g, ($0) => `style="display:none" ${$0}`);
