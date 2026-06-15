@@ -1,0 +1,10 @@
+# NAME: tiger
+# AUTHOR: dylanNelly
+# REPO: https://github.com/rule/Quantumult-X/tiger.list
+# UPDATED: 2025-06-06 09:12:33
+# HOST: 0
+# HOST-SUFFIX: 3
+# TOTAL: 3
+HOST-SUFFIX,skytigris.cn,tiger
+HOST-SUFFIX,tigerfintech.com,tiger
+HOST-SUFFIX,itigerup.com,tiger
