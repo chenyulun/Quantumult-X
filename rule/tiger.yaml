@@ -6,6 +6,6 @@
 # DOMAIN-SUFFIX: 0
 # TOTAL: 3
 payload:
-  - DOMAIN,skytigris.cn
-  - DOMAIN,tigerfintech.com
-  - DOMAIN,itigerup.com
+  - '+.skytigris.cn'
+  - '+.tigerfintech.com'
+  - '+.itigerup.com'
