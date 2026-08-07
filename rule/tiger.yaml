@@ -2,10 +2,11 @@
 # AUTHOR: dylanNelly
 # REPO: https://github.com/rule/Quantumult-X/tiger.yaml
 # UPDATED: 2025-08-04 22:49:33
-# DOMAIN: 3
-# DOMAIN-SUFFIX: 0
-# TOTAL: 3
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
 payload:
   - '+.skytigris.cn'
   - '+.tigerfintech.com'
   - '+.itigerup.com'
+  - '+.futunn.com'
